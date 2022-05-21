@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <div class="tooltip">Search with our voice</div>
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+          </div> 
+          <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="user-pic" src="channel-pictures/ishoos.jpg">
+      </div>
+    </div>
+
+    <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explorer</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+  
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>Youtube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+<main>  
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">4:49</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=pYdoQ6DZ3F4" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Colonel Loud ft. T.I., Young Dolph, Ricco Barrino - California (Official Video)
+            </p>
+          </a>
+            <p class="video-author">
+              ColonelLoudEVO
+            </p>
+            <p class="video-stats">
+              10M views &#183; 6 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=TjqogflD6qA" target="_blank" class="video-title-link">
+            <p class="video-title">
+              In the Morning
+            </p>
+          </a>
+            <p class="video-author">
+              Urban Mystic &#9834;
+            </p>
+            <p class="video-stats">
+              2.3M views &#183; 12 years ago
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=S1lY4Iuviug" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Eric Roberson - Lessons (Remix) Official Video (feat. Anthony Hamilton Raheem Devaughn & Kevin Ross)
+            </p>
+          </a>
+            <p class="video-author">
+              Eric Roberson
+            </p>
+            <p class="video-stats">
+              511K views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=NPFZ5nJIlsk" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Stokley - SHE... (Official Music Video)
+            </p>
+          </a>
+            <p class="video-author">
+              Stokley &#9834;
+            </p>
+            <p class="video-stats">
+              4.4M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=riFGn517A4M" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Sovereign God
+            </p>
+          </a>
+            <p class="video-author">
+              Maurette Brown Clark Music &#9834;
+            </p>
+            <p class="video-stats">
+              523K views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=e5yJdVDdHEE" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Vanish In Our Sleep
+            </p>
+          </a>
+            <p class="video-author">
+              Boosty Collins &#9834;
+            </p>
+            <p class="video-stats">
+              95k views
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/shorts/IS8tOPcmlck" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Jordyn woods getting a massage
+            </p>
+          </a>
+            <p class="video-author">
+              Glacier TV
+            </p>
+            <p class="video-stats">
+              18K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=RfdDK5vJvXs" target="_blank" class="video-title-link">
+            <p class="video-title">
+              I Need Animal Control!
+            </p>
+          </a>
+            <p class="video-author">
+              Black Tony
+            </p>
+            <p class="video-stats">
+             5.3k views &#183; 1 day ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=awMIbA34MT8" target="_blank" class="video-title-link">
+            <p class="video-title">
+              UGK (Underground Kingz) - Int'l Players Anthem (I Choose You) (Official Video) ft. Outkast
+            </p>
+          </a>
+            <p class="video-author">
+              UGKVideoVault &#9834;
+            </p>
+            <p class="video-stats">
+              53M views &#183; 12 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+          <div class="video-time">3:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=JnZ7wrypsFI" target="_blank" class="video-title-link">
+            <p class="video-title">
+              KT Foreign x Suga Free - Free Game (Exclusive Music Video)
+            </p>
+          </a>
+            <p class="video-author">
+              Thizzler On The Roof
+            </p>
+            <p class="video-stats">
+              939K views &#183; 1 month ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+          <div class="video-time">3:41</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=oESVMyJ20Ik" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Slick Ric
+            </p>
+          </a>
+            <p class="video-author">
+              norriszappa25
+            </p>
+            <p class="video-stats">
+              4.4M views &#183; 12 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+          <div class="video-time">3:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-12.jpeg">
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=QTPIm4xDLUk" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Juicy J - Show Out Remix ft Pimp C, T.I, and Young Jeezy
+            </p>
+          </a>
+            <p class="video-author">
+              HiphopworldWorldnews
+            </p>
+            <p class="video-stats">
+              128K views &#183; 8 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  </body>
+</html>
